@@ -1,0 +1,89 @@
+/* .certification__section{
+background-color: white;
+} */
+
+.img__container {
+  width: 100%;
+  margin: 0 auto;
+}
+.img__container__image {
+  width: 25rem;
+  display: flex;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .img__container__image {
+    width: 45rem;
+  }
+}
+/* .certificate__header {
+
+} */
+
+.title {
+  text-align: center;
+  color: white;
+}
+.certificate__scale {
+  width: 10rem;
+  height: 2px;
+  margin: 0 auto;
+  background-color: #333;
+  margin-bottom: 2rem;
+}
+
+.certificate__underline {
+  width: 5rem;
+  height: 2px;
+  background-color: #3b82f6;
+}
+
+/* certificate__container */
+.certificate__container {
+  width: 100%;
+  height: auto;
+  border: 2px solid #3f3e3e;
+  display: flex;
+  border-radius: 0.3rem;
+  margin: 0.8rem 0;
+  transition: 1s;
+}
+.certificate__container:hover {
+  transform: translateY(-0.3rem);
+}
+.left__div {
+  width: 6rem;
+  height: auto;
+  background-color: #444444;
+}
+.img {
+  width: 2.5rem;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 2.4rem;
+}
+.right__div {
+  line-height: 1.5rem;
+  padding: 0.5rem 0 0.5rem 1.5rem;
+  color: white;
+}
+.right__div__disc {
+  color: #5a5a5a;
+}
+.certificate__button {
+  display: block;
+  margin: 2rem auto;
+  padding: 0.8rem 2rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1rem;
+  border: 2px solid white;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+.certificate__button:hover {
+  background-color: #fff;
+  color: #333;
+}

@@ -1,0 +1,78 @@
+/* .resume__container {
+}
+
+.risume__div {
+} */
+.risume__img {
+  width: 25rem;
+  display: block;
+  margin: 0 auto;
+}
+.risume__title {
+  color: white;
+  font-size: 2.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .risume__img {
+    width: 35rem;
+  }
+}
+
+.experience__div__title {
+  color: white;
+}
+
+.div__one {
+  width: 8rem;
+  height: 2px;
+  background-color: rgb(135, 134, 134);
+  margin-bottom: 2rem;
+  .underline {
+    width: 4rem;
+    height: 2px;
+    background-color: #3b82f6;
+    
+  }
+
+}
+
+
+.experience__list {
+  width: 1px;
+  height: 9rem;
+  background-color: #333;
+  position: absolute;
+}
+.experience__cercle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid #333;
+  position: relative;
+  top: 1.8rem;
+  right: 12px;
+}
+.experence__date{
+  background-color: #000;
+  display: inline-block;
+  margin-left: 2rem;
+  color: #fff;
+  padding: 0.5rem 1.3rem;
+  border-radius: 2rem;
+}
+
+.experence__place{
+  line-height: 2rem;
+  margin-top: 1rem;
+  margin-left: 2.5rem;
+  color: white;
+}
+.experence__disc{
+  color: gray;
+}
+
+.ecucation__section{
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}

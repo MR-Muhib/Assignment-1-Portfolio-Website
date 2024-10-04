@@ -1,0 +1,83 @@
+.contact__title {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.div_one {
+  width: 8rem;
+  height: 3px;
+  background-color: #333;
+  margin: 0 auto;
+}
+.div_two {
+  width: 5rem;
+  height: 3px;
+  background-color: rgb(22, 91, 203);
+}
+.contact__location {
+  margin: 1rem;
+  color: #fff;
+  line-height: 2rem;
+}
+.location__links {
+  text-decoration: none;
+  color: white;
+}
+
+.form__title {
+  color: #fff;
+  text-decoration: underline;
+  margin-bottom: 2rem;
+}
+.help__form > input {
+  display: block;
+  width: 100%;
+  color: white;
+  margin-bottom: 0.8rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: transparent;
+  border: 1px solid gray;
+}
+#textarea {
+  display: block;
+  width: 100%;
+  color: white;
+  margin-bottom: 0.8rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: transparent;
+  border: 1px solid gray;
+}
+
+#send__message {
+  padding: 0.5rem 2rem;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 1rem;
+  border-radius: 2rem;
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
+#send__message:hover {
+  background-color: white;
+  color: #333;
+}
+.footer__links__div {
+  border-top: 2px solid #333;
+  padding-top: 2rem;
+  display: block;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.footer__links {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 0.3rem 1rem;
+}
+.footer__decs {
+  text-align: center;
+  color: white;
+}
